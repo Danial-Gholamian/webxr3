@@ -1,3 +1,5 @@
+//graphData.js
+
 export default {
   nodes: [
     { id: 'A', group: 1 },
