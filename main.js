@@ -1,12 +1,13 @@
-import * as THREE from 'three';
-import { VRButton } from 'three/examples/jsm/webxr/VRButton.js';
-import ForceGraph3D from '3d-force-graph';
+import * as THREE from './libs/three.module.js';
+import { VRButton } from './libs/VRButton.js';
+import ForceGraph3D from './libs/3d-force-graph.module.js';
+
 import { scene, camera, renderer } from './sceneSetup.js';
 import graphData from './graphData.js';
 
 document.body.appendChild(VRButton.createButton(renderer));
 
-const container = document.createElement('div'); // dummy
+const container = document.createElement('div'); // dummy container
 const Graph = ForceGraph3D({ renderer, extraRenderers: [] })(container)
   .graphData(graphData)
   .nodeAutoColorBy('group')
