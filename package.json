@@ -1,0 +1,24 @@
+{
+  "name": "webxr3",
+  "version": "1.0.0",
+  "description": "webxr3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danial-Gholamian/webxr3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danial-Gholamian/webxr3/issues"
+  },
+  "homepage": "https://github.com/Danial-Gholamian/webxr3#readme",
+  "dependencies": {
+    "3d-force-graph": "^1.77.0",
+    "three": "^0.175.0"
+  }
+}
