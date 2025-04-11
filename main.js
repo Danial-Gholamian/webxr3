@@ -1,9 +1,11 @@
-import * as THREE from './libs/three.module.js';
-import { VRButton } from './libs/VRButton.js';
-import ForceGraph3D from './libs/3d-force-graph.module.js';
+// import * as THREE from './libs/three.module.js';
+import * as THREE from 'three';
+import { VRButton } from 'three/examples/jsm/webxr/VRButton.js';
+import ForceGraph3D from '3d-force-graph';
 
 import { scene, camera, renderer } from './sceneSetup.js';
 import graphData from './graphData.js';
+
 
 document.body.appendChild(VRButton.createButton(renderer));
 
